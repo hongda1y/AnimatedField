@@ -168,7 +168,7 @@ open class AnimatedField: UIView {
         didSet {
             if showVisibleButton {
                 eyeButton.isHidden = false
-                textFieldRightConstraint.constant = 30
+                textFieldRightConstraint.constant = -30
                 secureField(true)
             } else {
                 eyeButton.isHidden = true
